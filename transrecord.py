@@ -127,8 +127,10 @@ class Image_dataGenerator():
 
 
 if __name__ == '__main__':
+    f = open("file_index/train_AgeBelow30.txt",encoding="ISO-8859-1")
+    data = np.loadtxt(f,dtype=str)
 
-
+    print(data)
 
 
 
